@@ -1,0 +1,117 @@
+body {
+background-color: rgb(96, 134, 168);
+margin: 60px auto;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-font-smoothing:antialiased;
+    -webkit-text-size-adjust:100%;
+    -ms-text-size-adjust:100%
+}
+hr {
+    border-top: 2px solid;
+    color: #eee;
+}
+  
+ #title {
+     margin-top: 100px;
+     margin-right: auto;
+     margin-left: auto;
+     width: 100%;
+     text-align: center;
+     
+     
+ }
+
+.linked {
+	float: right;
+	margin: 15px 20px 20px 20px;
+}
+
+.name {
+    font-family: 'Amaranth', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
+    color: rgb(233, 244, 250);
+    text-align:center;
+    margin-top:10px auto 15px auto;
+ }
+.fend {
+    font-family: 'Amaranth', sans-serif;
+    font-weight: bold;
+    font-size: 2.1em;
+    color: rgb(1, 23, 79);
+    text-align:center;
+    margin-top: 15px ;
+    padding-bottom: 20px;
+    position: relative;
+}
+#portal {
+    margin-top: 30px;
+    margin-right: 50px;
+}
+
+.nav-pills {
+	float: right;
+}
+ .nav-pills>li>a {
+    border-radius: 10px;
+	color: rgb(1, 23, 79);
+    font-size:1.5em;
+    font-weight: bold;
+}
+
+.nav-pills>li.active>a {
+	background-color: transparent;
+	color: rgb(1, 23, 79);
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+	
+}
+footer{
+    position: fixed;
+    bottom: 60px;
+    margin: auto;
+    width: 100%;
+	text-align: center;
+    font-family: Helvetica;
+    font-size: 1.3em;
+    color: rgb(1, 23, 79);
+}
+
+address a {
+    color: rgb(1, 23, 79);
+}
+#project {
+    margin-top: 40px;
+}
+p {
+	padding-top: 5px;
+	font-size: 15px;
+	 color: rgb(1, 23, 79);
+}
+.thumbnail {
+	border: 1px;
+	border-radius: 10px;
+	background-color:rgb(225, 236, 250);
+}
+.thumbnail h3 {
+	font-style: italic;
+	font-size: 20px;
+	color: #3E3D3F;
+}
+
+#bio {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-family:'Amaranth', sans-serif;
+    color: rgb(1, 23, 79);
+}
